@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>意见信箱</title>
+		<link rel='stylesheet' type='text/css' href='../css/mailbox.css' />
+	</head>
+
+	<body>
+		<!---将整个页面的主要内容都放在container中--->
+		<div id="container" class="clearfix">
+			<h1>万里挑一的小仙女</h1>
+			<!---页面右上角“回到首页”格式设置--->
+			<div id="lan"><a href="../index.html"><b>回到首页</b></a></div>
+			
+			<!---页面上方的选择栏的格式设置--->
+			<div id="nav1">
+				<ul>
+					<li><a href="myself.html">个人介绍</a></li>
+					<li><a href="like.html">我的兴趣</a></li>
+					<li><a href="foods.html">家乡美食</a></li>
+					<li><a href="mailbox.html">意见信箱</a></li>
+					<li><a href="about.html">关于作者</a></li>
+				</ul>
+			</div>
+			
+			<!---说明部分的格式设置--->
+			<div class="shuoming">
+				<p>&emsp;&emsp;此处为意见信箱，欢迎大家对本网站提出宝贵意见，可以上传文件，也可以留下对作者想说的话和自己的感想等等。感谢您的建议，我们会及时采纳并对界面做出相应完善。</p>
+			
+			</div>
+			<!---将表单部分放在biaodan这个div中--->
+			<div class="biaodan">
+			<form  method="post" action="">
+				<fieldset>
+				<p><label for="title" >您的姓名：</label>
+					<input type="text" name="name">
+				</p>
+				<p><label for="sex">您的性别：</label>
+					<input type="checkbox" name="check" value="Option1" />男性		
+					<input type="checkbox" name="check" value="Option2" />女性 	
+				</p>
+				<p> <label for="page">您最喜欢的页面是：</label>
+					<input type="radio" name="Option" value="Option1" />个人介绍		
+					<input type="radio" name="Option" value="Option2" />我的兴趣
+					<input type="radio" name="Option" value="Option1" />家乡美食		
+					<input type="radio" name="Option" value="Option2" />关于作者
+				</p>
+				<p> 选择您要上传的文件：
+					<input type="file" name="file" />
+                </p>					
+				<p><label for="messageContent">请输入您的留言：</label>
+					<textarea id="messageContent" name="messageContent" cols="50" rows="5" align="left"></textarea>
+				</p>
+				<p>      
+					<input type="submit" name="Button" value="提交"/>   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+					<input type="reset" name="Reset" value="重填"/>		
+				</p>
+				</fieldset>
+			</form>
+			</div>
+		</div>
+		
+		<!---页脚区--->
+		<div id="footer" class="clearfix">
+				<p>&copy;2020 联系作者</p>
+				<p>网页设计与制作 宋慧毓课程作业</p>
+				<p><a href="mailbox.html">点击返回页首 </a></p>
+			</div>
+	</body>
+</html>

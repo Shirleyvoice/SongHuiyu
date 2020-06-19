@@ -1,0 +1,113 @@
+	/*整个页面格式设置*/
+	body,ul,li,a{
+	padding:0;
+	margin:0 auto;
+	}
+	body{
+		background-image:url(../image/index04.jpg);
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+	}
+	#container{
+		float:none;
+		width: 960px;
+		margin: 0 auto;
+		background-color:rgba(255,255,255,0.40);
+	}
+	/*设置右上角“回到首页”的格式*/
+	#lan{
+		float: right;
+		font-size:15px;
+		margin-top: 15px;
+		margin-right: 20px;
+		font-family: "宋体";
+		}
+	#lan a:link,#lan a:visited{
+		color: #000000;
+		text-decoration: none;
+	}
+	#lan a:hover{
+	    color:rgba(50,100,300,1.00);
+	    text-decoration: none;
+	    font-size:18px;   	
+	}
+	/*设置选择栏格式*/
+	#nav1 ul{
+		list-style: none;
+		float: left;
+		
+	}
+	#nav1 ul li{
+		display: inline-block;
+		padding: 0;
+	}
+	#nav1 ul a:link,#nav1 ul a:visited{
+		text-decoration: none;
+	    color: rgba(255,255,255,1.00);
+	    display: block;
+		text-align: center;
+		font-size: 18px;
+		height: 50px;
+		width: 188px;
+		font-family:"黑体";
+		line-height: 50px;
+		background-color:rgba(100,200,300,1.00);
+		border-bottom: solid 2px rgba(100,200,300,1.00);
+		}
+	#nav1 ul a:hover{
+		background-color:rgba(50,100,300,1.00);
+		border-bottom: solid 2px rgba(100,200,300,1.00);
+		}
+	
+	/*设置图片位置*/
+	.fl{float: left;}
+	.fr{float: right;}
+	/*文本的格式设置*/
+	.txt{
+		float: right;
+		font-family: "微软雅黑", "黑体", "宋体";
+	    width: 960px;
+		margin: 0 auto;
+		
+    }
+	.txt p{text-indent: 2em;}
+	.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+    }
+	.txt img{
+		margin-right: 40px;
+		border-radius: 15%;
+	}
+	.txt ol li{list-style: none;}
+	#footer{
+	color:#FFF;
+	text-align:center;
+	width:100%;
+	background-color:#333;
+	float: left;
+	height: 150px;
+	padding-top:5px;
+	margin-top: 20px;
+	}
+	/*页脚格式设置*/
+	#footer a:link,#footer a:visited{
+		text-decoration: none;
+		color: rgba(255,255,255,1.00);
+	}
+	#footer a:hover{
+		text-decoration: underline;
+	}
+	#music,#dance{
+		border-bottom: dotted rgba(191,191,191,1.00) 3px;
+		padding-bottom: 10px;
+	}
+	#container h1{
+	text-align:center;
+    vertical-align:middle;
+	font-size:30px;
+}

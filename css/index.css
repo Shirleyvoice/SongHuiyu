@@ -1,0 +1,95 @@
+	
+	/*这个页面的格式控制*/
+	body,ul,li,a{
+	padding:0;
+	margin:0 auto;
+	}
+	body{
+		background-image:url(../image/index04.jpg);
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		background-size:100%;
+		position: relative;
+	}
+	/*最大的div盒子的格式控制*/
+	#container{
+		float:none;
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+	#container h1{
+	margin-top:30px;
+	text-align:center;
+    vertical-align:middle;
+	color:#E3E4FA;
+	font-family:YouYuan;
+	font-size:50px;
+	font-weight：900;
+	}
+	
+	#container a:link,#container a:visited{
+		text-decoration: none;
+		vertical-align: middle;
+		font-family: "宋体";
+		color:rgba(109,63,1,1.00);
+	}
+	
+	#container a:hover{
+		color:rgba(184,119,1,1.00);
+	}
+	
+	/*表示清除浮动*/
+
+	.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+    }
+	
+	/*about 这个div盒子的格式控制*/
+	.about a:link,.about a:visited{
+		float: right;
+		text-decoration: none;
+		font-size: 15px;
+		color:rgba(156,154,154,1.00);
+		font-family:"黑体";
+		margin-top: 50px;
+		margin-right: 100px;
+		
+	}
+	.about a:hover{
+		text-decoration: underline;
+		color:rgba(47,47,47,1.00);
+	}
+	
+	/*四个box的格式控制*/
+	#box01,#box02,#box03,#box04{
+		position: absolute;
+		line-height: 80px;
+	    font-size: 20px;
+		background-color: rgba(255,255,255,0);
+		bottom: 25%;
+	    width: 200px;
+		height: 200px;
+		text-align: center;
+	}
+	#box01{
+		left: 100px;
+		top:  200px;
+	}
+	#box02{
+		left:380px;
+		top: 200px;
+	}
+	#box03{
+		left:700px;
+		top: 200px;
+}
+	#box04{
+		left:1000px;
+		top: 200px;
+	}
+	

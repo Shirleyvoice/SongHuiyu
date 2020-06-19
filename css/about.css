@@ -1,0 +1,113 @@
+	/*整个页面的格式设置*/
+	body,ul,li,a{
+	padding:0;
+	margin:0 auto;
+	}
+	body{
+		background-image:url(../image/index04.jpg);
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+	}
+	#container{
+		float:none;
+		width: 960px;
+		margin: 0 auto;
+		background-color:rgba(255,255,255,0.40);
+	}
+	#container1 h1{
+	text-align:center;
+    vertical-align:middle;
+	font-size:30px;
+	}
+	/*右上角“回到首页”的格式设置*/
+	#lan{
+		float: right;
+		font-size:15px;
+		margin-top: 15px;
+		margin-right: 20px;
+		margin-bottom:20px;
+		font-family: "宋体";
+		}
+	#lan a:link,#lan a:visited{
+		color: #000000;
+		text-decoration: none;
+	}
+	#lan a:hover{
+		color:blue;
+	    #color:rgba(50,100,300,1.00);
+	    text-decoration: none;
+	    font-size:18px;   	
+	}
+	/*页面上方选择栏的格式设置*/
+	#nav1 ul{
+		list-style: none;
+		float: left;
+		
+	}
+	#nav1 ul li{
+		display: inline-block;
+		padding: 0;
+	}
+	#nav1 ul a:link,#nav1 ul a:visited{
+		text-decoration: none;
+	    color: rgba(255,255,255,1.00);
+	    display: block;
+		text-align: center;
+		font-size: 18px;
+		height: 50px;
+		width: 188px;
+		font-family:"黑体";
+		line-height: 50px;
+		background-color:rgba(100,200,300,1.00);
+		border-bottom: solid 2px rgba(100,200,300,1.00);
+		}
+	#nav1 ul a:hover{
+		background-color:rgba(50,100,300,1.00);
+		border-bottom: solid 2px rgba(100,200,300,1.00);
+		}
+		
+	/*说明部分的格式设置*/
+	.shuoming{
+		margin-bottom: 20px;
+		margin-top:70px;
+	}
+	
+	/*文本部分的格式设置*/
+	.txt{
+		float: right;
+		font-family: "微软雅黑", "黑体", "宋体";
+	    width: 720px;
+		margin: 0 auto;		
+    }
+	.txt p{
+		text-indent: 2em;
+	}
+	
+	/*清除浮动*/
+	.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+    }
+	
+	/*table的格式设置*/
+	table{
+		font-family: "宋体";
+		text-align: center;
+		vertical-align: middle;
+		
+	}
+	/*页脚区格式设置*/
+	#footer{
+	color:#FFF;
+	text-align:center;
+	width:100%;
+	background-color:#333;
+	float: left;
+	height: 150px;
+	padding-top:5px;
+	margin-top: 20px;
+}
